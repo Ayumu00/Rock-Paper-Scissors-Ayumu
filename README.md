@@ -1,3 +1,5 @@
 # rock-paper-scissors-java-script
 
-My Rock-Paper-Scissors
+Rock Paper Scissors.
+
+Created by Ayumu.
