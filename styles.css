@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+
+html, body, .container, .main {
+    height: 100%;
+    padding:0px;
+    margin:0px;
+    font-family: 'Kavoon', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: linear-gradient(rgb(80, 129, 138),rgb(209, 209, 193));
+}
+
+.container {
+    border: 10px solid rgba(0, 0, 0, 0.514);
+    width: 1000px;
+    height: 700px;
+}
+
+.main {
+    display:flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    justify-content: space-between;
+    
+}
+
+.user-score-box, .round-box, .computer-score-box {
+    border-radius: 5%;
+    width: 300px;
+    height: 50px;
+}
+
+.user-score-box {
+    background: rgba(40, 160, 230, 0.986);
+}
+
+.round-box {
+    background-color: rgba(26, 230, 77, 0.925);
+}
+
+.computer-score-box {
+    background-color: rgb(230, 71, 158);
+}
+
+.container-game {
+    height: 98%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    
+}
+
+.win-lose-draw {
+    font-size: 80px;
+}
+
+.images-center {
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.versus {
+    height: auto;
+    width: 100%;
+}
+
+.left, .right, .center {
+    height: 200px;
+    width: 200px;
+}
+
+.footer {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.rock, .paper, .scissors {
+    
+    height: 100%;
+    width: 20%;
+}
+
+.btn-game {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(red,yellow);
+    transition: all .09s ease;
+}
+
+.effects-css{
+    transform: scale(0.8);
+}
+
+.btn-img {
+    width: 60px;
+    height: 60px;
+}
+
+.user, .enemy {
+    width: 100%;
+    height: auto;
+}
+
+/*Span of my name lol*/
+
+.ayumu {
+    font-size: 30px;
+}
+
+.span-1{
+    color:aqua;
+}
+.span-2{
+    color: blueviolet;
+}
+
+.span-3{
+    color:coral;
+}
+
+.span-4{
+ color:greenyellow;
+}
+
+.span-5{
+ color:darkseagreen;
+}
+
+.span-6{
+    color:magenta;
+}
