@@ -1,4 +1,4 @@
-# rock-paper-scissors-java-script
+# rock-paper-scissors
 
 Rock Paper Scissors.
 
